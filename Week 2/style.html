@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Fundamentals of CSS</h1>
+    <h2>Cascading</h2>
+    <p style="font-weight: 800">
+      Style can be added as an inline element using the style attribute on tags
+      as is the case for this paragraph. Here font-weight has been given a
+      weight of 800.
+    </p>
+    <p style="color: green; padding-left: 25px; margin-right: 650px">
+      The inline style takes precedent over all the otherstyle declarations.
+      Next in order of precedent is the embeded style. This uses style tags and
+      is often found in the header section of a page. This pre tag is styled
+      with embedded style. An extra large green font.
+    </p>
+    <p style="font-family: 'Times New Roman', Times, serif">
+      Ideally, style is held separately from structure in a style sheet. Other
+      than the 2 examples above all other style on this page is in a separate
+      style sheet. Including change of base font of Arial.
+    </p>
+    <h2 id="selecTitle">Selectors</h2>
+    <p>
+      CSS selectors are used to apply style. There is the element selector,
+      class selector and ID selector. All being well you have used an element
+      selector to modify the font on this page by adding style to the body tag
+      in you attacked sheet. Words in this
+      <span class="sentence">sentence</span> have been
+      <span class="styled">styled</span> using a class selector applied to
+      letter spacing and the heading for this section with an ID selector.
+    </p>
+    <h2>Box Model</h2>
+    <a href="https://www.w3schools.com/html/html_links.asp;" id="Link">
+      https://www.w3schools.com/html/html_links.asp</a
+    >
+    <a href="https://www.w3schools.com/;" id="Link"
+      >https://www.w3schools.com/</a
+    >
+    <a href="https://scratch.mit.edu;" id="Link">https://scratch.mit.edu</a>
+    <p>
+      The links above are held in a list that is re-styled to remove
+      list-style-type and display inline. Padding, margin and border are then
+      added as appropriate.
+    </p>
+    <h2>Layout</h2>
+    <div class="row">
+      <div class="column">
+        <p>These words are in column 1.</p>
+      </div>
+      <div class="column">
+        <p>These words are in column 2.</p>
+      </div>
+      <div class="column">
+        <p>These words are in column 3.</p>
+      </div>
+    </div>
+    <p>
+      Margin, padding, borders and floats added to achieve this layout of
+      columns.
+    </p>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>More Fundamentals of HTML</title>
+  </head>
+  <body>
+    <h1>More Fundamentals of HTML</h1>
+    <h2>Tables</h2>
+    <p>
+      Tables should only be used for tabulated data and <b>not</b> for page
+      layout. As with all other HTML elements tables should be styled with CSS
+      but we will bend the rule slightly and use the border attribute for this
+      excercise.
+    </p>
+    <table border="2px">
+      <caption>
+        This caption helps screen reader users to understand the table
+      </caption>
+      <tr>
+        <th><b>One</b></th>
+        <th><b>Two</b></th>
+        <th><b>Three</b></th>
+      </tr>
+      <tr>
+        <td>This</td>
+        <td>That</td>
+        <td>Other</td>
+      </tr>
+      <tr>
+        <td>Which</td>
+        <td>What</td>
+        <td>When</td>
+      </tr>
+    </table>
+    <h2>Lists</h2>
+    <p>
+      Lists are very important in web page design, they are for example the
+      basis of page navigation.
+    </p>
+    <h3>Unordered List</h3>
+    <ul>
+      <li>blue</li>
+      <li>red</li>
+      <li>green</li>
+    </ul>
+    <h3>Ordered List</h3>
+    <ol>
+      <li>blue</li>
+      <li>red</li>
+      <li>green</li>
+    </ol>
+    <h3>Nested List</h3>
+    <ol>
+      <li>one</li>
+      <li>two</li>
+      <li>a</li>
+      <li>b</li>
+      <li>c</li>
+      <li>three</li>
+    </ol>
+    <h2>Forms</h2>
+    <h3>A simple login form</h3>
+    <form>
+      <label for="username">Username</label>
+      <input type="text" name="username" />
+      <label for="password">Password</label>
+      <input type="password" name="password" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

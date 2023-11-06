@@ -1,0 +1,32 @@
+#selecTitle {
+  font-family: fantasy, Arial, Helvetica, sans-serif;
+}
+
+.sentence {
+  letter-spacing: 10px;
+  color: purple;
+  font-weight: bold;
+}
+
+.styled {
+  letter-spacing: 10px;
+  color: purple;
+  font-weight: bold;
+}
+
+#Link {
+  background-color: lightgray;
+  padding: 10px;
+  border: 2px green solid;
+  margin: 50px;
+}
+
+.column {
+  float: left;
+  width: 33.33;
+  padding: 15px;
+
+  padding: 20px;
+  border: 2px green solid;
+  margin: 50px;
+}
